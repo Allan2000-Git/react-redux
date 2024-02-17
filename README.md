@@ -13,3 +13,8 @@
   - {type:'deposit', payload:500}
   - {type:'withdraw', payload:100}
   - {type:'checkBalance'}
+
+ ## dispatch, getState, subscribe
+ - getState(): get the current state
+ - dispatch(action): call the reducer and update the state
+ - subscribe(function() {}): this is called whenever there is a change in the state or whenever dispatch is called
